@@ -1,0 +1,25 @@
+# 基础依赖
+python-dotenv>=1.0.0
+
+# PDF 处理
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+
+# 向量检索
+numpy>=1.24.0
+sqlite-vec>=0.1.0  # 轻量级向量库
+
+# LLM 调用
+openai>=1.0.0  # Kimi/OpenAI 兼容接口
+
+# 中文分词（关键词检索）
+jieba>=0.42.0
+
+# 本地 Embedding
+llama-cpp-python>=0.2.0
+
+# Web 界面
+gradio>=4.0.0
+
+# 工具
+tqdm>=4.65.0
